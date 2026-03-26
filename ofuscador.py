@@ -16,11 +16,11 @@ preparar_ambiente()
 import customtkinter as ctk
 from tkinter import messagebox
 
-class OfuscadorOWASP(ctk.CTk):
+class OfuscadorJS(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("JS Shield Ultra - OWASP Compliance Mode")
+        self.title("Ofuscador de JavaScript")
         self.geometry("900x700")
         ctk.set_appearance_mode("Dark")
         ctk.set_default_color_theme("blue")
@@ -91,5 +91,5 @@ class OfuscadorOWASP(ctk.CTk):
     
 
 if __name__ == "__main__":
-    app = OfuscadorOWASP()
+    app = OfuscadorJS()
     app.mainloop()
